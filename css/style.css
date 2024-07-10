@@ -23,8 +23,8 @@ a{
     padding: 40px 130px;
 }
 .nav-btn{
-    padding: 10px 20px;
-    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 12px 20px;
+    border: 1.5px groove rgba(13, 19, 33, 0.6);
     border-radius: 5px;
     background-color: transparent;
 }
@@ -63,6 +63,7 @@ a{
 .reason{
     background-color:rgb(246, 242, 242) ;
     padding: 80px;
+    border-radius: 10px;
 }
 .reason-text{
     text-align: center;
@@ -72,6 +73,7 @@ a{
 .heading-title{
     font-size: 32px;
     margin-bottom: 40px;
+    font-weight: 800;
 }
 .reason-description{
     margin: 30px 0;
@@ -82,6 +84,7 @@ a{
     align-items: center;
     background-color: rgba(255, 255, 255, 0.4);
     padding: 40px;
+    border-radius: 10px;
 }
 .reason-1-text{
     width: 400px;
@@ -93,7 +96,7 @@ a{
 .reason-btn{
     padding: 9px 15px;
     background-color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 1.5px groove rgba(13, 19, 33, 0.5);
 }
 .reason-btn a{
     font-weight: 500;
@@ -107,6 +110,7 @@ a{
     background-color: rgba(255, 255, 255, 0.4);
     padding: 40px;
     margin: 35px 0;
+    border-radius: 10px;
 }
 /* my inspiration */
 .my-inspiration{
@@ -125,5 +129,54 @@ a{
     margin: 45px 0;
 }
 .inspiration-video iframe{
-    border-radius: 15px;    
+    border-radius: 10px;    
+}
+/* current-target */
+.current-target{}
+.bg-color-1{
+    background-color:rgba(255, 76, 30, 0.05);
+}
+.bg-color-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.bg-color-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.current-items{
+    display: flex;
+    gap: 24px;
+    padding: 20px 0;
+    
+}
+.current-item{
+    padding: 35px;
+    border-radius: 10px;
+}
+.current-des{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+
+/* next Target */
+.next-target{
+    padding: 30px;
+}
+.target-items{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: 1px groove rgba(13, 19, 33, 0.3);
+    padding: 40px 0;
+}
+.target-title{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.target-a{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
 }
